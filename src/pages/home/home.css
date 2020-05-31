@@ -1,0 +1,97 @@
+.home-container {
+  width: 960px;
+  margin: 0 auto;
+}
+.home-container .banner {
+  width: 100%;
+  height: 270px;
+}
+#topicId {
+  overflow: hidden;
+  padding: 20px 0 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -10px;
+  border-bottom: 1px solid #dcdcdc;
+}
+#topicId .topic-item {
+  height: 32px;
+  line-height: 32px;
+  font-size: 14px;
+  border: 1px solid #dcdcdc;
+  border-radius: 4px;
+  background: #f7f7f7;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  overflow: hidden;
+}
+#topicId .topic-item .topic-pic {
+  width: 32px;
+  height: 32px;
+}
+#topicId .topic-item .topic-text {
+  padding: 0 5px;
+}
+#listId {
+  padding: 20px 0;
+}
+#listId .list-container {
+  display: flex;
+  justify-content: space-between;
+}
+#listId .list-content {
+  flex: 1;
+}
+#listId .list-content .list-title {
+  line-height: 27px;
+  font-size: 18px;
+  font-weight: 700;
+  color: #333;
+}
+#listId .list-content .list-desc {
+  line-height: 24px;
+  font-size: 13px;
+  color: #999;
+}
+#listId .list-img {
+  width: 150px;
+  height: 100px;
+  float: right;
+}
+#listId .list-img img {
+  height: 100%;
+  border-radius: 4px;
+  border: 1px solid #f0f0f0;
+}
+#listId .readMore-btn {
+  display: block;
+  width: 100%;
+  border-radius: 20px;
+  background-color: #a5a5a5;
+  height: 40px;
+  margin: 30px auto 60px;
+  padding: 10px 15px;
+  text-align: center;
+  font-size: 15px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+}
+.back-to-top {
+  position: fixed;
+  right: 100px;
+  bottom: 100px;
+  width: 60px;
+  height: 60px;
+  line-height: 60;
+  text-align: center;
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.back-to-top .fa {
+  font-size: 40px;
+  color: #333;
+}
